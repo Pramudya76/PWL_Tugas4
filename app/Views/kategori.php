@@ -8,9 +8,11 @@
 <body>
     <h1>Ini adalah halaman Kategori</h1>
     <ul>
-        <li>Judul</li>
-        <li>Isi</li>
-        <li>Kesimpulan</li>
+        <li>Alat Tulis</li>
+        <li>Pakaian</li>
+        <li>Celana</li>
+        <li>Snack</li>
+        <li>Elektronik</li>
     </ul>
 </body>
 </html>
