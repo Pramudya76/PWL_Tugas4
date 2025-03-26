@@ -19,4 +19,16 @@ class Home extends BaseController
         return view('kategori');
     }
 
+    public function alatTulis(){
+        return view('alattulis');
+    }
+
+    public function pakaian() {
+        return view('pakaian');
+    }
+
+    public function snack() {
+        return view('snack');
+    }
+
 }
