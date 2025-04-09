@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('welcome_message');
+        return view('v_home');
     }
 
     public function hello($nama=null) {
@@ -29,6 +29,14 @@ class Home extends BaseController
 
     public function snack() {
         return view('snack');
+    }
+
+    public function produk() {
+        return view('v_produk');
+    }
+
+    public function keranjang() {
+        return view('v_keranjang');
     }
 
 }

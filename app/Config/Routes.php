@@ -11,3 +11,5 @@ $routes->get('kategori', 'Home::kategori');
 $routes->get('alatTulis', 'Home::alatTulis');
 $routes->get('pakaian', 'Home::pakaian');
 $routes->get('snack', 'Home::snack');
+$routes->get('/produk', 'Home::produk');
+$routes->get('/keranjang', 'Home::keranjang');
