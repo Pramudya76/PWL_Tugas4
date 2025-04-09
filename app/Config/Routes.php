@@ -13,3 +13,6 @@ $routes->get('pakaian', 'Home::pakaian');
 $routes->get('snack', 'Home::snack');
 $routes->get('/produk', 'Home::produk');
 $routes->get('/keranjang', 'Home::keranjang');
+$routes->get('login', 'AuthController::login');
+$routes->post('login', 'AuthController::login');
+$routes->get('logout', 'AuthController::logout');
